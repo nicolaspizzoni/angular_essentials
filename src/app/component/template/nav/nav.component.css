@@ -1,0 +1,24 @@
+.sidenav {
+    background-color: #3F51B5;
+    width: 200px;
+}
+
+.sidenav a {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.sidenav a span {
+    color: #FFF;
+}
+
+.sidenav a i {
+    color: #FFF;
+    padding-right: 10px;
+}
+
+.content {
+    padding: 2rem;
+    background-color: white;
+}

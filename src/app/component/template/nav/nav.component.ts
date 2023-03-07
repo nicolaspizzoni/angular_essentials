@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MenuService } from '../menu.service';
 
 @Component({
   selector: 'app-nav',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class NavComponent {
   
+  constructor(public menu : MenuService){}
+
 }

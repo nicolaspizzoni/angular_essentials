@@ -1,0 +1,15 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 250px
+}
+
+.card-new-product {
+    padding: 20px;
+    max-width: 800px;
+}

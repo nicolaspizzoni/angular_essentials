@@ -10,12 +10,14 @@ export class FooterComponent {
   
 }
 
-@Directive({
-  selector: '[appRed]',
-})
-export class FooterStyleRed {
-  constructor(el: ElementRef){
-    el.nativeElement.style.color = "#ff0000"
-  }
-}
+//Diretiva de Atributo
+
+// @Directive({
+//   selector: '[appRed]',
+// })
+// export class FooterStyleRed {
+//   constructor(el: ElementRef){
+//     el.nativeElement.style.color = "#ff0000"
+//   }
+// }
 

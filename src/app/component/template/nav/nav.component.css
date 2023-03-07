@@ -3,6 +3,13 @@
     width: 200px;
 }
 
+@media (max-width: 600px) {
+    .sidenav {
+        /* width: 0px; */
+        display: none;
+    }
+}
+
 .sidenav a {
     display: flex;
     align-items: center;
